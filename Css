@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Aula - Div com CSS</title>
+    <style>
+        .minhaClasse {
+            background-color: aqua;
+            font-size: 380px
+        }
+        .minhaClasse{
+            background-color: black;
+        }
+    </style>
+        </head>
+        </style>
+        <body>
+            
+     <div class= "minhaClasse">
+    <p> Meu texto fica aqui</p>
+
+</div>
+</body>
+</html>
