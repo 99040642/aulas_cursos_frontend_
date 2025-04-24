@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>DIV - Continuaçaõ</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!--Essa e a versão errada, somente explicação 
+    <p>Minha página HTML sem estilo</p>
+    <p style="color: blue;">Minha página HTML com estilo</p>
+    <p style="color: aqua;"> </p>-->
+    <p class="ttt">Esse e meu parágrafo</p>
+
+    <h1> Minha página</h1>
+    <h1> Minha página no H1 novamente</h1>
+    
+    <p class="cruzeiro"> Minha página outro que recebe css pela definição de tags</p>
+    <p>Minha tag sem extelização</p>
+    <p id="meu ID"> Recebe css pela definição de id </p>
+
+</body>
+</html>
+.ttt{
+            color: brown;
+            text-align: center;
+            border: 2px solid green;
+            margin-top: 100px;   
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        h1 {
+            color: rgb(3, 0, 0);
+            text-align: center;
+        }
+
+        p {
+            font-family: verdana;
+            font-size: 20px;
+            border: 2px solid rgb(128, 0, 0);
+        }
+
+        .cruzeiro {
+            color: rgb(53, 27, 168);
+            text-align: center;
+            border: 2px solid hsl(251, 100%, 25%);
+            margin-top: 50px; 
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+        }
+
+        #meuId {
+            
+        }
